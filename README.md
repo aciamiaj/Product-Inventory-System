@@ -2,7 +2,7 @@
 
 The Product Inventory System showcases the creation of an inventory and an invoice, along with their associated functionalities. It allows for the addition of products to the inventory and the creation of an invoice with invoice items.
 
-# Code Overview
+## Code Overview
 The provided code consists of the following components:
 
 Inventory: An inventory class that manages a collection of products. It provides methods to add products, find products by their unique identifier, and display all products in the inventory.
@@ -15,7 +15,7 @@ InvoiceItem: A class representing an item in an invoice. It associates a product
 
 Program: The main entry point of the application. It demonstrates the usage of the inventory and invoice management system by creating an inventory, adding products to it, creating an invoice, adding invoice items, and displaying the products sold.
 
-# Usage
+## Usage
 To use the Inventory and Invoice Management System, follow these steps:
 
 Ensure that the necessary dependencies and classes (Inventory, Product, Invoice, InvoiceItem) are implemented and available.
@@ -36,5 +36,5 @@ Display the products in the inventory using the displayAllProduct method of the 
 
 Display the products sold in the invoice using the displayProductSold method of the invoice.
 
-# Notes
+## Notes
 Please note that the provided code snippet is a simplified implementation to demonstrate the usage of the inventory and invoice management system. In a real-world scenario, additional error handling, input validation, and data persistence mechanisms may be required.
